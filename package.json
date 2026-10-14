@@ -9,6 +9,14 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.5.0",
+    "@mui/material": "^9.5.0",
+    "@mui/material-nextjs": "^9.5.0",
+    "framer-motion": "^14.2.0",
+    "mongoose": "^9.11.2",
     "next": "16.4.0",
     "react": "19.3.0",
     "react-dom": "19.3.0"
