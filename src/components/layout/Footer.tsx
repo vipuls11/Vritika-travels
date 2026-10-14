@@ -27,14 +27,13 @@ export default function Footer() {
               variant="h5"
               sx={{ fontWeight: 800, letterSpacing: "-0.04em" }}
             >
-              Vritika Travel
+              Vritika Travel  Cars
             </Typography>
             <Typography
               variant="body2"
               sx={{ color: "rgba(255,255,255,0.7)", maxWidth: 320 }}
             >
-              Thoughtful journeys, personal concierge support, and beautiful
-              moments crafted around the way you love to travel.
+              Premium vehicles, honest guidance, and flexible financing designed around how you drive every day.
             </Typography>
             <Button
               component={Link}
@@ -44,7 +43,7 @@ export default function Footer() {
               endIcon={<ArrowForward />}
               sx={{ alignSelf: "flex-start" }}
             >
-              Book your escape
+              Book a test drive
             </Button>
           </Box>
 
@@ -66,7 +65,7 @@ export default function Footer() {
                   variant="body2"
                   sx={{ color: "rgba(255,255,255,0.8)" }}
                 >
-                  Destinations
+                  Collection
                 </Typography>
               </Link>
               <Link href="/packages">
@@ -74,7 +73,7 @@ export default function Footer() {
                   variant="body2"
                   sx={{ color: "rgba(255,255,255,0.8)" }}
                 >
-                  Packages
+                  Offers
                 </Typography>
               </Link>
               <Link href="/experiences">
@@ -82,7 +81,7 @@ export default function Footer() {
                   variant="body2"
                   sx={{ color: "rgba(255,255,255,0.8)" }}
                 >
-                  Experiences
+                  Buying guides
                 </Typography>
               </Link>
               <Link href="/blog">
@@ -90,7 +89,7 @@ export default function Footer() {
                   variant="body2"
                   sx={{ color: "rgba(255,255,255,0.8)" }}
                 >
-                  Travel Blog
+                  Car insights
                 </Typography>
               </Link>
             </Box>
@@ -133,12 +132,12 @@ export default function Footer() {
                   Special offers
                 </Typography>
               </Link>
-              <Link href="/destinations/bali">
+              <Link href="/destinations/mercedes-c-class">
                 <Typography
                   variant="body2"
                   sx={{ color: "rgba(255,255,255,0.8)" }}
                 >
-                  Tailor-made trips
+                  Tailor-made vehicle plans
                 </Typography>
               </Link>
             </Box>
@@ -163,7 +162,7 @@ export default function Footer() {
                   variant="body2"
                   sx={{ color: "rgba(255,255,255,0.8)" }}
                 >
-                  25 Marina Avenue, Bali
+                  245 Auto Avenue, Austin
                 </Typography>
               </Box>
               <Box sx={{ display: "flex", alignItems: "center", gap: 1.2 }}>
@@ -181,7 +180,7 @@ export default function Footer() {
                   variant="body2"
                   sx={{ color: "rgba(255,255,255,0.8)" }}
                 >
-                  hello@Vritikatravel.com
+                  hello@vritikatravel cars.com
                 </Typography>
               </Box>
             </Box>
@@ -200,7 +199,7 @@ export default function Footer() {
           }}
         >
           <Typography variant="body2" sx={{ color: "rgba(255,255,255,0.7)" }}>
-            © 2026 Vritika Travel powered by{" "}
+            © 2026 Vritika Travel  Cars powered by{" "}
           <Box
   component={Link}
   href="https://digitalwebapp.in"

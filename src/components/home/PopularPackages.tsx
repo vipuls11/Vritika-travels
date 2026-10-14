@@ -23,9 +23,9 @@ export default function PopularPackages() {
     <Box component="section" sx={{ py: { xs: 8, md: 12 }, background: 'linear-gradient(180deg, rgba(13,110,253,0.03), rgba(255,255,255,0))' }}>
       <Box sx={{ maxWidth: 1280, mx: 'auto', px: { xs: 2, md: 3 } }}>
         <SectionHeader
-          eyebrow="Popular packages"
-          title="Travel experiences designed around you"
-          description="Browse our most loved itineraries for romantic escapes, cultural journeys, and adventure-filled breaks."
+          eyebrow="Popular offers"
+          title="Vehicle deals designed for your next chapter"
+          description="Explore our most-loved deals, from executive sedans to family SUVs and electric models built around modern driving life."
         />
 
         <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: 'repeat(2, minmax(0, 1fr))' }, gap: 3 }}>
@@ -51,7 +51,7 @@ export default function PopularPackages() {
                   <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <Typography variant="h5" sx={{ fontWeight: 800 }}>{pkg.price}</Typography>
                     <Button variant="contained" color="primary" endIcon={<ArrowForward />} onClick={() => handleReserve(pkg)}>
-                      Book now
+                      Reserve now
                     </Button>
                   </Box>
                 </CardContent>

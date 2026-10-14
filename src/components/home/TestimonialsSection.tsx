@@ -10,9 +10,9 @@ export default function TestimonialsSection() {
     <Box component="section" sx={{ py: { xs: 8, md: 12 }, background: 'rgba(13,110,253,0.03)' }}>
       <Box sx={{ maxWidth: 1280, mx: 'auto', px: { xs: 2, md: 3 } }}>
         <SectionHeader
-          eyebrow="Traveler stories"
-          title="Loved by explorers worldwide"
-          description="We design with intention, but it’s the moments our travelers remember most that tell the real story."
+          eyebrow="Driver stories"
+          title="Loved by drivers who expect more"
+          description="It is the confidence, service, and quality behind every vehicle purchase that makes the experience memorable."
         />
 
         <Box sx={{ display: 'grid', gridTemplateColumns: { xs: '1fr', md: 'repeat(3, minmax(0, 1fr))' }, gap: 3 }}>

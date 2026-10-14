@@ -18,7 +18,7 @@ import {
   Typography,
 } from "@mui/material";
 import {
-  FlightTakeoff,
+  DirectionsCar,
   KeyboardArrowDown,
   Menu as MenuIcon,
   Search,
@@ -28,25 +28,25 @@ import {
 const navItems = [
   { label: "Home", href: "/" },
   {
-    label: "Destinations",
+    label: "Collection",
     submenu: [
-      { label: "Bali", href: "/destinations/bali" },
-      { label: "Santorini", href: "/destinations/santorini" },
-      { label: "Kyoto", href: "/destinations/kyoto" },
-      { label: "Swiss Alps", href: "/destinations/swiss-alps" },
+      { label: "Sedans", href: "/destinations/mercedes-c-class" },
+      { label: "SUVs", href: "/destinations/bmw-x5" },
+      { label: "Performance", href: "/destinations/porsche-911" },
+      { label: "Electric", href: "/destinations/tesla-model-y" },
     ],
   },
   {
-    label: "Experiences",
+    label: "Offers",
     submenu: [
-      { label: "Adventure", href: "/experiences/adventure" },
       { label: "Luxury", href: "/experiences/luxury" },
-      { label: "Honeymoon", href: "/experiences/honeymoon" },
-      { label: "Family Trips", href: "/experiences/family-trips" },
+      { label: "Adventure", href: "/experiences/adventure" },
+      { label: "Family", href: "/experiences/family-trips" },
+      { label: "EVs", href: "/experiences/honeymoon" },
     ],
   },
   { label: "Packages", href: "/packages" },
-  { label: "Blog", href: "/blog" },
+  { label: "Reviews", href: "/blog" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
@@ -108,31 +108,20 @@ export default function Header() {
             textDecoration: "none",
           }}
         >
-          {/* <Box
+          <Box
             sx={{
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              width: 42,
-              height: 42,
+              width: 46,
+              height: 46,
               borderRadius: 2,
               background: "linear-gradient(135deg, #0d6efd, #4fa5ff)",
               color: "white",
             }}
-          > */}
-            {/* <FlightTakeoff fontSize="small" /> */}
-            <Box
-              component="img"
-              src="/favicon.svg"
-              alt="Car"
-              sx={{
-                width: 60,
-                height: 60,
-                display: "inline-block",
-                verticalAlign: "middle",
-              }}
-            />
-          {/* </Box> */}
+          >
+            <DirectionsCar fontSize="medium" />
+          </Box>
           <Box>
             <Typography
               variant="h6"
@@ -142,7 +131,7 @@ export default function Header() {
                 color: "text.primary",
               }}
             >
-              Vritika
+              Vritika Travel 
             </Typography>
             <Typography
               variant="caption"
@@ -152,7 +141,7 @@ export default function Header() {
                 textTransform: "uppercase",
               }}
             >
-              Travels
+              Cars
             </Typography>
           </Box>
         </Link>
@@ -239,10 +228,10 @@ export default function Header() {
               px: 2,
             }}
           >
-            Plan a trip
+            Book a test drive
           </Button>
           <IconButton
-            aria-label="Search travel ideas"
+            aria-label="Search car models"
             color="primary"
             sx={{
               display: { xs: "none", md: "inline-flex" },
@@ -355,7 +344,7 @@ export default function Header() {
           sx={{ mt: 3 }}
           onClick={() => setMobileOpen(false)}
         >
-          Plan a trip
+          Book a test drive
         </Button>
       </Drawer>
 

@@ -17,12 +17,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Vritika Travel | Tours, Packages & Luxury Escapes',
-  description: 'Curated tours, package holidays, destination guides, and travel inspiration with a premium service experience.',
-icons: {
+  title: 'Vritika Travel  Cars | Premium Vehicles, Financing & Auto Deals',
+  description: 'Luxury sedans, SUVs, EVs, and high-performance cars with flexible financing and expert guidance.',
+  icons: {
     icon: '/favicon.svg',
   },
-} 
+};
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (

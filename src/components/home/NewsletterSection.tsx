@@ -36,13 +36,13 @@ export default function NewsletterSection() {
                 variant="overline"
                 sx={{ letterSpacing: "0.12em", opacity: 0.8 }}
               >
-                Stay inspired
+                Stay in the loop
               </Typography>
               <Typography
                 variant="h3"
                 sx={{ fontWeight: 800, mt: 1, letterSpacing: "-0.05em" }}
               >
-                Get destination ideas and fresh travel inspiration.
+                Get model alerts, new arrivals, and car-buying updates.
               </Typography>
             </Box>
 
